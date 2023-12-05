@@ -91,6 +91,13 @@ out
 .nuxt
 dist
 
+
+#parcel 
+*node_modules/
+*dist/
+*.parcel-cache/
+
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -128,3 +135,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
