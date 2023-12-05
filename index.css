@@ -1,0 +1,11 @@
+/* add this in setting.json -> "css.lint.unknownAtRules": "ignore" if you are getting unknown at rules error or warning */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-monos;
+    @apply text-darklight;
+  }
+}
