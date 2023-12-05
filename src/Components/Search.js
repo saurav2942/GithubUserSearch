@@ -58,7 +58,7 @@ const Search = () => {
       />
       <input
         value={searchText}
-        type="search"
+        type="text"
         placeholder="Enter a Github Username...."
         className="w-[60%] appearance-none focus:outline-none placeholder:text-darklight placeholder:tracking-[1px] mr-[21%]"
         style={{ backgroundColor: "transparent", color: col2 }}
