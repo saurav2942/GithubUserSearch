@@ -8,6 +8,7 @@ const App = () => {
   const bgTheme = useSelector((store) => store.theme.bgTheme);
   const userData = useSelector((store) => store.user.userData);
 
+  console.log(userData);
   return (!userData?<Shimmer/>:(    
     <div
       className="box-border min-h-screen min-w-screen md:justify-center flex flex-col py-[2%] px-[2%] md:px-[10%] lg:px-[23%]"
