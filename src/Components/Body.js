@@ -8,7 +8,7 @@ const Body = () => {
   const col2 = useSelector((store) => store.style.col2);
   const user = useSelector((store) => store.user.userData);
   const shadow = useSelector((store) => store.style.shadow);
-  console.log(shadow);
+  // console.log(shadow);
 
   // Using Date() constructor
   let date = new Date(user?.created_at);
