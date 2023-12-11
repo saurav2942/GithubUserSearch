@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 
 const App = () => {
   const bgTheme = useSelector((store) => store.theme.bgTheme);
+  const userData = useSelector((store) => store.user.userData);
 
   return (
     <div
