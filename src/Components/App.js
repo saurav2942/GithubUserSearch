@@ -16,7 +16,8 @@ const App = () => {
       <Header />
       <Search />
       <Body />
-    </div>)
+    </div>
+   )
   );
 };
 
